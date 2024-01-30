@@ -12,6 +12,19 @@ def main():
     # 데이터 로드
     df = pd.read_csv("data/ss.csv") 
     
+    st.header('sleep health and lifestyle', divider='blue')
+    st.header('🍔')
+    
+    add_selectbox = st.sidebar.selectbox(
+    "How would you like to be contacted?",
+    ("Email", "Home phone", "Mobile phone")
+    )
+    
+    
+    
+    
+    
+    
     # 데이터 확인
     st.write(df)
     
